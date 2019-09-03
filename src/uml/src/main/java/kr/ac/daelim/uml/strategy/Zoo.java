@@ -7,11 +7,17 @@ public class Zoo {
 		tiger.performFly();
 		tiger.display();
 		tiger.move();
-		
+		System.out.println("---------------");
 		Animal eagle = new Eagle();
 		eagle.performCry();
 		eagle.performFly();
 		eagle.display();
-		tiger.move();
+		eagle.move();
+		System.out.println("---------------");
+		Animal turtle = new Turtle();
+		turtle.performCry();
+		turtle.performFly();
+		turtle.display();
+		turtle.move();
 	}
 }
